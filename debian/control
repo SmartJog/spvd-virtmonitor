@@ -1,0 +1,15 @@
+Source: spvd-virtmonitor
+Section: misc
+Priority: optional
+Maintainer: Philippe Bridant <philippe.bridant@smartjog.com>
+Uploaders: Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>
+Build-Depends: debhelper (>= 8), cdbs, python-central (>= 0.6), txt2tags
+XS-Python-Version: >= 2.6
+Standards-Version: 3.9.1
+
+Package: spvd-virtmonitor
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, spvd (>= 0.8.5)
+XB-Python-Version: ${python:Versions}
+Description: SmartJog virtmonitor supervision plugin for spvd
+ This plugin monitors virtual machine status.

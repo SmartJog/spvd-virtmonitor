@@ -1,0 +1,35 @@
+spvd-virtmonitor
+spvd-virtmonitor
+%%mtime
+
+%!target : man
+%!encoding : utf-8
+%!postproc(man): "^(\.TH.*) 1 "  "\1 5 "
+
+= NAME =
+
+spvd-virtmonitor - Virtual machine supervision plugin for spvd.
+
+= DESCRIPTION =
+
+spvd-virtmonitor checks the status of virtual machine on a given RxTx server.
+
+= CONFIGURATION =
+
+The configuration options below can be used in **spvd.conf**(5) within the **[spvd:virtmonitor]** field. Additional configuration options for all plugins can be found in **spvd.conf**(5).
+
+: **importer_tcp_timeout**
+Maximum wait time before reporting importer failure.
+
+
+= AUTHOR =
+
+The spvd-virtmonitor plugin and this manual page have been written by the **SmartJog** company.
+
+
+= SEE ALSO =
+
+**spvd.conf**(5)
+**spvd**(8)
+
+
