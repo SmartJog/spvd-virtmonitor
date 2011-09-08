@@ -1,5 +1,5 @@
-spvd-virtmonitor (0.1.0~dev-1) unstable; urgency=low
+spvd-virtmonitor (0.1.0-1) unstable; urgency=low
 
   * Initial release. (Closes: #4770)
 
- -- Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>  Thu, 10 Dec 2009 18:43:18 +0100
+ -- Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>  Thu, 08 Sep 2011 16:10:46 +0200
