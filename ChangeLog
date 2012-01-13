@@ -1,6 +1,8 @@
 Version 0.2.0~dev
 
 	* Add check to verify service provided by a VM, closes: #5464.
+	* Rewrite get_status check to collect services status as well,
+	  closes: #5465.
 
 Version 0.1.0 Released on 2011/09/08
 
