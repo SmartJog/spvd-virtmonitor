@@ -1,6 +1,6 @@
 AC_PREREQ([2.67])
 
-AC_INIT([spvd-virtmonitor],[0.2.0~dev])
+AC_INIT([spvd-virtmonitor],[0.2.0])
 
 AM_INIT_AUTOMAKE([foreign])
 
