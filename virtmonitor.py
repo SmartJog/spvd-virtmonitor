@@ -42,7 +42,7 @@ class Job(BaseJob):
                 return 'FINISHED', 'VM online'
             else:
                 return 'ERROR', 'VM offline'
-        except ImporterError, exc:
+        except ImporterError, _exc:
             raise Job.BaseError('Importer error, please check local logs')
 
     def get_service_status(self):
@@ -104,7 +104,7 @@ class Job(BaseJob):
                 )
             else:
                 return 'FINISHED', 'All VMs and services currently online'
-        except ImporterError, exc:
+        except ImporterError, _exc:
             raise Job.BaseError('Importer error, please check remote end')
 
 
