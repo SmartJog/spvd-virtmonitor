@@ -9,7 +9,7 @@ Standards-Version: 3.9.1
 
 Package: spvd-virtmonitor
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, spvd (>= 0.8.5)
+Depends: ${misc:Depends}, ${python:Depends}, spvd (>= 1~)
 XB-Python-Version: ${python:Versions}
 Description: SmartJog virtmonitor supervision plugin for spvd
  This plugin monitors virtual machine status.

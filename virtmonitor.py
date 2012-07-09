@@ -2,7 +2,7 @@
 
 """ Monitor the status of virtual machines. """
 
-from baseplugin import BasePlugin
+from importerplugin import ImporterPlugin
 from basejob import BaseJob
 from importer import Importer, ImporterError
 
@@ -108,7 +108,7 @@ class Job(BaseJob):
             raise Job.BaseError('Importer error, please check remote end')
 
 
-class Plugin(BasePlugin):
+class Plugin(ImporterPlugin):
     """ Virtual machine monitoring plugin. """
 
     require = { }
@@ -119,7 +119,7 @@ class Plugin(BasePlugin):
 
     name = "virtmonitor"
 
-    def __init__(self, options, event, url=None, params=None):
+    def __init__(self, options, event, params=None):
         """ Init method of the virtmonitor plugin.
 
         @params is a dictionary of optional parameters among:
@@ -128,7 +128,7 @@ class Plugin(BasePlugin):
 
         @see BasePlugin documentation
         """
-        BasePlugin.__init__(self, options, event, url, params)
+        ImporterPlugin.__init__(self, options, event, params)
 
     def create_new_job(self, job):
         """ Create a new virtmonitor job. """

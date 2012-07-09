@@ -1,3 +1,9 @@
+spvd-virtmonitor (0.3.0~dev-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Gilles Dartiguelongue <gilles.dartiguelongue@smartjog.com>  Fri, 06 Jul 2012 17:32:07 +0200
+
 spvd-virtmonitor (0.2.0-1) unstable; urgency=low
 
   * New upstream release, closes: #5464, #5465.
