@@ -1,6 +1,7 @@
 Version 0.3.0~dev
 
 	* Update to new ImporterPlugin API.
+	* Use version from the package.
 
 Version 0.2.0 Released on 2012/01/13
 

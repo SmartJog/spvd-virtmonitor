@@ -6,6 +6,7 @@ AM_INIT_AUTOMAKE([foreign])
 
 AM_PATH_PYTHON([2.6])
 AC_PATH_PROG(TXT2TAGS, txt2tags)
+AC_PROG_SED
 
 AC_SUBST([spvddir], [\$\(datadir\)/spvd])
 AC_SUBST([virtmonitordir], [\$\(spvddir\)/plugins])

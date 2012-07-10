@@ -111,13 +111,14 @@ class Job(BaseJob):
 class Plugin(ImporterPlugin):
     """ Virtual machine monitoring plugin. """
 
+    name = 'virtmonitor'
+    version = '@PACKAGE_VERSION@'
+
     require = { }
 
     optional = {
         'importer_tcp_timeout' : int
-       }
-
-    name = "virtmonitor"
+    }
 
     def __init__(self, options, event, params=None):
         """ Init method of the virtmonitor plugin.
