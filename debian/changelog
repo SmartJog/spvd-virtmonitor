@@ -1,3 +1,9 @@
+spvd-virtmonitor (0.3.0-2) unstable; urgency=medium
+
+  * Simplify and modernize the packaging
+
+ -- Julien Mori <julien.mori@arkena.com>  Mon, 29 Feb 2016 15:35:35 +0100
+
 spvd-virtmonitor (0.3.0-1) unstable; urgency=low
 
   * New upstream release.
